@@ -26,11 +26,8 @@ namespace ClassMetotDemo
 
             Musteri[] musteriler = new Musteri[] { musteri1, musteri2 };
             Console.WriteLine("--------------------");
-            foreach (var musteri in musteriler)
-            {
-                musteriManager.MusteriListele(musteri);
-            }
 
+            musteriManager.MusteriListele(musteriler);
             musteriManager.MusteriSil(musteri2);
 
         }
